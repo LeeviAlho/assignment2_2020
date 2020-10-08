@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 800%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  background: transparent;
+  border: none;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+td {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+}
+.x {
+  background-color: rgb(124, 252, 0);
+}
+.o {
+  background-color: rgb(250, 128, 114);
+}
+div.underpar {
+  font: helvetica;
+}
+div.gameend {
+  text-align: center;
+}
+#underpar {
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 30px;
+  white-space: nowrap;
+}
+span {
+  font-size: 30px;
+  font: helvetica;
+  text-align: center;
+  vertical-align: middle;
+}
